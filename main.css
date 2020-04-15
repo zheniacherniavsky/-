@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.cursorActive {
+	cursor: crosshair;
+}
+
+table {
+	z-index: -1;
+    border-collapse: collapse;
+    border: hidden;
+    user-select: none;
+}
+
+td {
+	padding: 15px;
+}
+
+.activeTD {
+	background-color: black;
+	border:none;
+}
+
+.hoverTD {
+	background-color: black;
+	opacity: 0.3;
+}
