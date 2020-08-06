@@ -1,0 +1,142 @@
+#configIcon {
+	position: fixed;
+	width: 3vw;
+	opacity: 0.8;
+	top: 2%;
+	right: 2%;
+}
+
+#configIcon:hover {
+	cursor: pointer;
+}
+
+#config {
+	display: none;
+	position: fixed;
+	right: 0%;
+	top: 1%;
+	width: 15vw;
+	border: 3px solid rgb(83, 234, 147, 0.3);
+	border-right: none;
+	border-top-left-radius: 3vw;
+	border-bottom-left-radius: 3vw;
+	background-color: rgb(255,255,255,0.7);
+	box-shadow: 0px 0px 20px lightgrey;
+	font-family: Consolas;
+	font-weight: bold;
+	font-size: 1.5vw;
+	padding: 2%;
+	text-align: center;
+}
+
+#config:hover {
+	cursor: pointer;
+}
+
+/* COLOR PICKER */
+
+.brush {
+	background-color: black;
+	margin-top: 10px;
+	border: 1px solid black;
+}
+
+#colorPicker td {
+	padding: 15px;
+}
+
+#colorPickerTools {
+	margin-top: 5px;
+}
+#colorPickerTools td {
+	padding: 5px;
+}
+
+.Black {
+	background-color: Black;
+	border: 0;
+}
+.Gray {
+	background-color: Gray;
+	border: 0;
+}
+.Silver {
+	background-color: Silver;
+	border: 0;
+}
+.White {
+	background-color: White;
+	border: 0;
+}
+.Magenta {
+	background-color: Magenta;
+	border: 0;
+}
+.Purple {
+	background-color: Purple;
+	border: 0;
+}
+.Red {
+	background-color: Red;
+	border: 0;
+}
+.Maroon {
+	background-color: Maroon;
+	border: 0;
+}
+.Yellow {
+	background-color: Yellow;
+	border: 0;
+}
+.Olive {
+	background-color: Olive;
+	border: 0;
+}
+.Lime {
+	background-color: Lime;
+	border: 0;
+}
+.Green {
+	background-color: Green;
+	border: 0;
+}
+.Aqua {
+	background-color: Aqua;
+	border: 0;
+}
+.Teal {
+	background-color: Teal;
+	border: 0;
+}
+.Blue {
+	background-color: Blue;
+	border: 0;
+}
+.Navy {
+	background-color: Navy;
+	border: 0;
+}
+.Eraser {
+	background-color: rgb(235, 255, 255);
+	border: 2px solid black;
+}
+
+.colorBlock {
+	color: white;
+	text-shadow: 0px 0px 15px black;
+}
+
+/* GRID */
+
+#grid:hover {
+	color: grey;
+	cursor: pointer;
+}
+
+/* CLEAN */
+
+#clean:hover {
+	color: grey;
+	cursor: pointer;
+}
+

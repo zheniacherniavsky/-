@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рисовалка</title>
+	<link rel="icon" href="icons/brush.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/configStyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="hello">
+		<h2><a href="https://github.com/zheniacherniavsky/color_a_web_page">Color a web page 🍭</a></h2>
+		<p>Зажми и рисуй! ✍️</p>
+		<div id="accept">
+			<p>Понял! 😎</p>
+		</div>
+	</div>
+	<img src="icons/config.svg" id="configIcon">
+	<div id="config">
+		<table id="colorPicker">
+			<tr>
+				<td class="Black"></td>
+				<td class="Gray"></td>
+				<td class="Silver"></td>
+				<td class="White"></td>
+				<td class="Magenta"></td>
+				<td class="Purple"></td>
+				<td class="Red"></td>
+				<td class="Maroon"></td>
+				<td class="Yellow"></td>
+			</tr>
+			<tr>
+				<td class="Olive"></td>
+				<td class="Lime"></td>
+				<td class="Green"></td>
+				<td class="Aqua"></td>
+				<td class="Teal"></td>
+				<td class="Blue"></td>
+				<td class="Navy"></td>
+			</tr>
+		</table>
+		<table id="colorPickerTools">
+			<tr>
+				<td class="Eraser"><img src="icons/eraser.svg" width="25px" height="25px"></td>
+			</tr>
+		</table>
+		<div class="brush"><p class="colorBlock">Кисть 🖌</p></div>
+		<p id="grid">Сетка ✅</p>
+		<p id="clean">Отчистка 🐾</p>
+	</div>
+	<script src="javascript/paint.js"></script>
+	<script src="javascript/config.js"></script>
+</body>
+</html>
